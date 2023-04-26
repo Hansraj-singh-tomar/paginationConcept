@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+}
+.products {
+  margin: 25px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.single__products {
+  height: 150px;
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.single__products > img {
+  width: 100%;
+  object-fit: cover;
+  height: 95%;
+  margin-bottom: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > span {
+  border: 1px solid black;
+  padding: 15px 20px;
+}
+
+.pagination__disable {
+  opacity: 0;
+}
+
+.pagination__selected {
+  background-color: rgb(220, 220, 220);
+}
